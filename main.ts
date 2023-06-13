@@ -1,7 +1,7 @@
 #!/usr/bin/env -S deno run --allow-net --allow-read --allow-write --unstable
 
 const url = 
-  "https://oxblue.com/archive/a4ed2c099b4f3d942fd3d69702cd6d6b/1024x768.jpg";
+  "http://217.24.53.18/cgi-bin/faststream.jpg";
 const dir = "./assets";
 const file = `${dir}/${
   new Date().toJSON().replace(/:/g, "_").replace(/\..*$/, "")
